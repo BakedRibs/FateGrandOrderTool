@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project FateGrandOrderTool -->
-<!-- Saved: 2018-04-11, 20:48:38 -->
+<!-- Saved: 2018-04-12, 19:34:08 -->
 <!-- Copyright (C) 2018 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -14,6 +14,8 @@
   <Eol index="0"/>
   <Sources>
     <Source>ControlBar.py</Source>
+    <Source>ServantData.py</Source>
+    <Source>SkillMaterials.py</Source>
     <Source>__init__.py</Source>
   </Sources>
   <Forms/>

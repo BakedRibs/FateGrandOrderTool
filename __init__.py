@@ -1,5 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout
+from ServantData import ServantData
 from ControlBar import ControlBar
 
 class FateGrandOrderTool(QWidget):
@@ -8,6 +9,7 @@ class FateGrandOrderTool(QWidget):
         self.Init_UI()
         
     def Init_UI(self):
+        self.servantData = ServantData()
         self.ControlBar = ControlBar()
         
         mainLayout = QVBoxLayout()
